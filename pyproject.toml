@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ml-model-examples"
+version = "0.1.0"
+description = ""
+authors = ["Kyle McLester <kmcleste@uncc.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.12.2"
+python-json-logger = "^2.0.4"
+
+[tool.poetry.dev-dependencies]
+black = "^22.8.0"
+flake8 = "^5.0.4"
+pre-commit = "^2.20.0"
+pytest = "^7.1.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+    py310 = true
+    line-length = 88
