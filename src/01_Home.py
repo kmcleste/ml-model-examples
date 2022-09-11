@@ -1,4 +1,17 @@
-# ml-model-examples (WIP)
+import streamlit as st
+
+st.set_page_config(
+    page_title="Home", page_icon="🏠", layout="centered", initial_sidebar_state="auto"
+)
+
+st.markdown("# ML Playground")
+
+# TODO: Add welcome tag and description of website purpose
+st.markdown("## Welcome! 👋")
+
+st.markdown(
+    """
+### Table of Contents
 
 1. Supervised Learning
    1. Linear Models
@@ -20,4 +33,5 @@
    2. Association
       1. Apriori Algorithm
 
-(Models selected based on [DataCamp cheatsheet](https://s3.amazonaws.com/assets.datacamp.com/email/other/ML+Cheat+Sheet_2.pdf))
+"""
+)

@@ -7,3 +7,6 @@ black:
 
 pre-commit:
 	poetry run pre-commit .
+
+streamlit:
+	poetry run streamlit run src/01_Home.py
