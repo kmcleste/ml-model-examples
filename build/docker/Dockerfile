@@ -2,6 +2,8 @@ FROM python:3.10-slim
 
 USER 0
 
+LABEL org.opencontainers.image.source="https://github.com/kmcleste/ml-model-examples"
+
 RUN mkdir -p /app
 
 COPY src/ app/src
