@@ -3,23 +3,23 @@ from streamlit.delta_generator import DeltaGenerator
 
 
 def markdown(
-    description: str, applications: str, advantages: str, disadvantages: str
+    topic: str, description: str, applications: str, advantages: str, disadvantages: str
 ) -> DeltaGenerator:
     st.markdown(
         f"""
-    ## Description
+    ## {topic}
 
     {description}
 
-    ## Applications
+    ### Applications
 
     {applications}
 
-    ## Advantages
+    ### Advantages
 
     {advantages}
 
-    ## Disadvatages
+    ### Disadvatages
 
     {disadvantages}
     """

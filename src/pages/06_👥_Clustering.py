@@ -6,7 +6,7 @@ from pages.tabs.gaussian_mixture import gaussian_mixture
 
 st.set_page_config(
     page_title="Clustering",
-    page_icon="📏",
+    page_icon="👥",
     layout="centered",
     initial_sidebar_state="auto",
 )

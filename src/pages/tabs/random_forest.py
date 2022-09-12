@@ -2,24 +2,27 @@ from pages.tabs.utils.markdown_formatter import markdown
 
 
 def random_forest():
-    description = """
+
+    topic: str = "Random Forests"
+
+    description: str = """
     An ensemble learning method that combines
     the output of multiple decision trees.
     """
 
-    applications = """
+    applications: str = """
     1. Credit score modeling
     2. Predicting housing prices
     """
 
-    advantages = """
+    advantages: str = """
     1. Reduces overfitting
     2. Higher accuracy compared to other models
     """
 
-    disadvantages = """
+    disadvantages: str = """
     1. Training complexity can be high
     2. Not very interpretable
     """
 
-    markdown(description, applications, advantages, disadvantages)
+    markdown(topic, description, applications, advantages, disadvantages)
