@@ -7,7 +7,7 @@ from pages.tabs.xgboost import xgboost
 from pages.tabs.lightgbm import lightgbm
 
 st.set_page_config(
-    page_title="Page 3",
+    page_title="Tree-Based Models",
     page_icon="🌴",
     layout="centered",
     initial_sidebar_state="auto",

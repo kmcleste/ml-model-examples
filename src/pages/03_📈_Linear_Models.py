@@ -6,7 +6,7 @@ from pages.tabs.lasso_regression import lasso_regression
 from pages.tabs.ridge_regression import ridge_regression
 
 st.set_page_config(
-    page_title="Page 2",
+    page_title="Linear Models",
     page_icon="📈",
     layout="centered",
     initial_sidebar_state="auto",

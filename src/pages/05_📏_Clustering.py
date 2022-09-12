@@ -5,7 +5,7 @@ from pages.tabs.hierarchical import hierarchical
 from pages.tabs.gaussian_mixture import gaussian_mixture
 
 st.set_page_config(
-    page_title="Page 4",
+    page_title="Clustering",
     page_icon="📏",
     layout="centered",
     initial_sidebar_state="auto",
