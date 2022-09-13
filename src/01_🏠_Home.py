@@ -6,7 +6,7 @@ st.set_page_config(
 
 st.markdown("# ML Playground")
 
-# TODO: Add welcome tag and description of website purpose
+# TODO: Add welcome message and description of website purpose
 
 st.markdown(
     """
