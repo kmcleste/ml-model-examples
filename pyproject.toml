@@ -7,7 +7,6 @@ authors = ["Kyle McLester <kmcleste@uncc.edu>"]
 [tool.poetry.dependencies]
 python = "^3.10"
 streamlit = "^1.12.2"
-python-json-logger = "^2.0.4"
 watchdog = "^2.1.9"
 
 [tool.poetry.dev-dependencies]
